@@ -34,18 +34,30 @@ void playTGCs()
 	
 	printf("\t==~~~~~~~~~~~~~~~~~~~~==\t\n");
 	printf("You have recently became obsessed with playing a children's card game...\n");
-	printf("You have decided that you don't want to work on anything school related today and want to relax for once.\n");
+	printf("You have decided that you don't want to work on anything school related today ");
+	printf("and want to relax for once.\n");
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	printf("================================================================================");
 	printf("You have several options to consider:\n");
-	printf("You can either watch the Television show associated with the card game, or go out and buy a whole bunch of cards and force %s to play with you.\n", yourFriend);
-	printf("You realize that if you want to play the card game that also means you also have to go out and buy some cards to use...  Of course you friend will go along with you for the ride, but do you really want to spend the money?\n");
-	printf("Either way %s has decided to support you with your unproductive choices!  What a great friend...\n", yourFriend);
+	printf("You can either watch the Television show associated with the card game, or go ");
+	printf("out and buy a whole bunch of cards and force %s to play with you.\n", yourFriend);
+	printf("You realize that if you want to play the card game that also means you also \n");
+	printf("have to go out and buy some cards to use...  Of course you friend will go \n");
+	printf("along with you for the ride, but do you really want to spend the money?\n");
+	printf("Either way %s has decided to support you with your unproductive choices!\n", yourFriend);
+	printf("What a great friend...\n");
 	printf("\t==~~~~~~~~~~~~~~~~~~~~==\t\n");
 	printf("MAKE YOUR CHOICE, CHOOSE WISELY!\n\n");
-	printf("1) Play the children's card game go out to the grocery store and buy cards and spend three hours to complete this task\n");
-	printf("2) Watch the television show associated with the card game, spend up to fours hours completing this task\n");
-	printf("3) Do nothing you don't want to admit being obsessed with the children's card game!\n");
+	printf("1) Play the children's card game go out to the grocery store and buy cards and \n");
+	printf("spend three hours to complete this task\n");
+	printf("2) Watch the television show associated with the card game, spend up to fours \n");
+	printf("hours completing this task\n");
+	printf("3) Do nothing you don't want to admit being obsessed with the children's \n");
+	printf("card game!\n");
 	scanf("%d", &tcg);
 	printf("You Picked %d", tcg);
+	printf("================================================================================");
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 	printf("write about consequences for your actions!");
 } 
 
@@ -53,6 +65,8 @@ void socialclubEvent();
 void socialclubEvent()
 {
 	char *yesNo;
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	printf("================================================================================");
 	printf("Today you have a social meeting for your favorite club, it is a different kind of meeting than most and you want to go because there will be free food.\n");
 	printf("You also have an important exam tomorrow, and need to decide what you want to do.  You can choose to either go to your club meeting or to go home and study.");
 	printf("\t==~~~~~~~~~~~~~~~~~~~~==\t\n");
